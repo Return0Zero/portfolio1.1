@@ -1,0 +1,238 @@
+.proj--component {
+    background: var(--background-component);
+    height: 100%;
+    width: 35%;
+    padding: 3%;
+    border-radius: 35px;
+    backdrop-filter: blur(3px);
+    border-top: 1.5px solid rgba(255, 255, 255, 0.7);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.7);
+    z-index: 4;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 7%;
+    font-size: 1vw;
+}
+
+.proj--logo-container {
+    width: 60%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: -30px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    background: white;
+    height: 60px;
+    border-radius: 50px;
+    border-top: 1.5px solid rgba(255, 255, 255, 0.7);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+.proj--game-title {
+    color: black;
+    font-size: 1.5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.proj--buttons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.proj--buttons {
+    width: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.proj--buttons:active {
+    transform: scale(0.9);
+}
+
+.proj--content {
+    margin-top: 7%;
+    text-align: left;
+    height: 200px;
+    overflow: auto;
+    padding: 5%;
+    box-shadow: inset 3px 3px 7px #ffffff73, 5px 5px 7px rgba(94, 104, 121, 0.29);
+    border-radius: 20px;
+}
+
+.proj--two-images-embassy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 200px;
+}
+
+.proj---embassy-image {
+    width: 180px;
+}
+
+.game-logo {
+    transform: scale(0.9);
+}
+
+.proj--game-title {
+    font-size: 1.3vw;
+}
+
+@media (max-width: 1300px) {
+   
+    .proj--content {
+        margin-top: 7%;
+        height: 150px;
+        overflow: auto;
+    }
+
+    .proj--two-images-embassy {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        flex-direction: column;
+    }
+
+    .proj--buttons {
+        width: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+
+    .proj---embassy-image {
+        width: 160px;
+    }
+
+}@media (max-width: 1100px) {
+   
+    .proj--content {
+        margin-top: 7%;
+        height: 120px;
+        overflow: auto;
+    }
+
+    .proj--buttons {
+        width: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+
+    .proj---embassy-image {
+        width: 130px;
+    }
+
+    .proj--logo-container {
+        top: -25px;
+        height: 50px;
+    }
+    
+
+}
+
+
+@media (max-width: 800px) {
+    .proj--component {
+    width: 75%;
+    font-size: 2.2vw;
+    margin-top: 5%;
+    }
+
+    .proj--content {
+        margin-top: 7%;
+        height: 200px;
+        overflow: auto;
+    }
+
+    .proj--buttons {
+        width: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+
+    .proj---embassy-image {
+        width: 170px;
+    }
+
+    
+    .proj--two-images-embassy {
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    
+.proj--game-title {
+    font-size: 2vw;
+}
+
+}
+
+@media (max-width: 650px) {
+        .proj--content {
+            height: 150px;
+        }
+    
+    
+        .proj--image {
+            width: 150px;
+        }
+
+    
+
+}
+@media (max-width: 600px) {
+    
+        .proj--content {
+            height: 100px;
+        }
+    
+        .proj--buttons {
+            width: 40px;
+        }
+    
+        .proj--image {
+            width: 100px;
+        }
+
+}
+
+@media (max-width: 500px) {
+    
+    .proj--content {
+        height: 100px;
+    }
+
+    .proj--buttons {
+        width: 40px;
+    }
+
+    .proj--image {
+        width: 100px;
+    }
+    .proj---embassy-image {
+        width: 150px;
+    }
+    .proj--two-images-embassy {
+        flex-direction: column;
+    }
+
+    
+.proj--game-title {
+    font-size: 3vw;
+}
+
+}

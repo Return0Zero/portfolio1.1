@@ -1,0 +1,89 @@
+.CTA-section:active {
+    transform: scale(0.9);
+}
+
+.CTA-button {
+    position: fixed;
+    right: 3%;
+    top: 90%;
+    z-index: 8;
+    cursor: pointer;
+    background-image: var(--button-gradient);
+    background-size: 200%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-radius: 50px;
+    width: 160px;
+    height: 42px;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: var(--button-font);
+}
+
+.CTA-button:hover {
+    animation: play 1.5s infinite alternate;
+}
+
+.CTA-button p:hover {
+    background: white;
+    color: black;
+    animation: play 2s infinite alternate;
+}
+
+
+.CTA-button p {
+    font-size: 20px;
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    background: black;
+    border-radius: 50px;
+}
+
+@keyframes play {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+@media (max-width: 1300px) {
+        
+    .CTA-button {
+        right: 3%;
+        top: 95%;
+        background-size: 200%;
+        width: 120px;
+        height: 35px;
+    }
+
+    .CTA-button p {
+        font-size: 15px;
+        margin: 4px;
+        padding: 4.5px;
+    }
+
+}
+
+@media (max-width: 800px) {
+        
+    .CTA-button {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 93.5%;
+        background-size: 200%;
+        width: 120px;
+        height: 35px;
+    }
+
+    .CTA-button p {
+        font-size: 15px;
+        margin: 4px;
+        padding: 4.5px;
+    }
+
+}
