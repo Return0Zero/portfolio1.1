@@ -1,6 +1,5 @@
 import React from 'react';
 import './skills.css';
-import SkillsTitle from '../../images/titles/skills.svg';
 import SkillsInfo from '../../components/skills--info/skills--ux-info';
 import SkillsArtInfo from '../../components/skills--info/skills--info';
 

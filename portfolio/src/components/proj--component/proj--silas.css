@@ -3,40 +3,36 @@
     height: 100%;
     width: 35%;
     padding: 3%;
-    border-radius: 35px;
-    backdrop-filter: blur(3px);
-    border-top: 1.5px solid rgba(255, 255, 255, 0.7);
-    border-left: 1.5px solid rgba(255, 255, 255, 0.7);
     z-index: 4;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 4%;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     color: white;
     margin-bottom: 7%;
     font-size: 1vw;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 45px;
+    border-style: solid;
+    border-color: #831187;
+    backdrop-filter: blur(4px);
 }
 
 .proj--logo-container {
-    width: 60%;
+    width: 50%;
     position: absolute;
     display: flex;
     justify-content: center;
-    top: -30px;
+    top: -40px;
     left: 0; 
     right: 0; 
     margin-left: auto; 
     margin-right: auto;
-    background: white;
-    height: 60px;
+    background: rgb(240, 240, 240);
+    height: 80px;
     border-radius: 50px;
-    border-top: 1.5px solid rgba(255, 255, 255, 0.7);
-    border-left: 1.5px solid rgba(255, 255, 255, 0.7);
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    
 }
 
-.silas-logo {
+.silas-logo  {
     transform: scale(0.68);
 }
 
@@ -58,13 +54,11 @@
 }
 
 .proj--content {
-    margin-top: 7%;
+    margin-top: 2%;
     text-align: left;
     height: 200px;
     overflow: auto;
     padding: 5%;
-    box-shadow: inset 3px 3px 7px #ffffff73, 5px 5px 7px rgba(94, 104, 121, 0.29);
-    border-radius: 20px;
 }
 
 .proj--two-images {

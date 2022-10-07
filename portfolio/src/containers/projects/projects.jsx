@@ -1,24 +1,21 @@
 import React from 'react';
 import './projects.css';
-import ProjectsTitle from '../../images/titles/projects.svg';
 import ProjSilas from '../../components/proj--component/proj--silas';
 import ProjEmbassy from '../../components/proj--component/proj--embassy';
 import ProjGame from '../../components/proj--component/proj--game';
-import ProjMusic from '../../components/proj--component/proj--green-gold-music';
-import Asset2 from '../../images/background-designs/Asset2.svg';
+import ProjAffordable from '../../components/proj--component/proj--affordable-cleaning';
+import ProjKnight from '../../components/proj--component/proj--knight';
 
 const Projects = () => {
     return (
         <div className='projects--section' id='projectID'>
-            <div className='asset2-container'>                    
-                <img src={Asset2} alt='shape2' className='asset2' />
-            </div>
-            <img src={ProjectsTitle} alt='projects title' className='project--title'/>
+            <h1 className='main-title'>PROJECTS</h1>
             <div className='project--container'>
+                <ProjAffordable />
+                <ProjKnight />
                 <ProjSilas />
                 <ProjEmbassy />
                 <ProjGame />
-                <ProjMusic />
             </div>
         </div>
     )

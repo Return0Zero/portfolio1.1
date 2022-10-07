@@ -1,7 +1,6 @@
 import React from 'react';
 import './about.css';
 import { Graphics } from '../../components';
-import Wtmp from '../../images/titles/welcome-to-my-portfolio.svg';
 import Triangles from '../../images/background-designs/triangles.svg';
 
 
