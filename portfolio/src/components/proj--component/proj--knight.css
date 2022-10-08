@@ -12,8 +12,8 @@
     width: 180px;
 }
 
-.embassy-logo {
-    transform: scale(0.88);
+.knight-logo {
+    transform: scale(0.60);
 }
 
 @media (max-width: 1300px) {

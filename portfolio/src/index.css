@@ -13,7 +13,16 @@ body {
 
 .main-title {
   font-family: 'Gruppo', cursive;
-  font-size: 4.5rem;
+  font-size: 5.5vw;
   color: #dedede;
   font-weight: 400;
+}
+
+
+@media (max-width: 1300px) {
+    
+  .main-title {
+  }
+  
+
 }

@@ -12,7 +12,7 @@
 
 .header-second-title {
     font-family: 'Vujahday Script', cursive;
-    font-size: 4rem;
+    font-size: 5.5vw;
 }
 
 .header-logo img {
@@ -25,6 +25,11 @@
 
 @media (max-width: 1300px) {
     
+
+.header-second-title {
+    font-family: 'Vujahday Script', cursive;
+    font-size: 6.5vw;
+}
     
     
 

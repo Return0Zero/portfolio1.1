@@ -5,7 +5,7 @@ import PlusButton from '../../images/icons/plus-button.svg';
 import WebButton from '../../images/icons/web-button.png';
 import CodingButton from '../../images/icons/coding-button.svg';
 
-import EmbassyBefore from '../../images/projects/affordable/affordable.png'
+import AffordableHeader from '../../images/projects/affordable/affordable.png'
 
 
 const ProjAffordable = () => {
@@ -19,7 +19,7 @@ const ProjAffordable = () => {
             </div>
             <div className='proj--one-images-component'> 
                 <div className='proj--image1'>
-                    <img src={EmbassyBefore} alt='homepage' className='proj---one-image-component' />
+                    <img src={AffordableHeader} alt='homepage' className='proj---one-image-component' />
                 </div>
             </div>
             <div className='proj--buttons-container'>
