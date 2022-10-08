@@ -27,29 +27,35 @@
     
 
 .header-second-title {
-    font-family: 'Vujahday Script', cursive;
     font-size: 6.5vw;
 }
-    
-    
-
 }
 
 @media (max-width: 1100px) {
-    
-    
-    
+
+    .header-logo img {
+        width: 300px;
+    }  
 
 }
 
 @media (max-width: 800px) {
 
+    .header-logo img {
+        width: 250px;
+    }
     
 
+    .header-second-title {
+        font-size: 7.5vw;
+    }
 }
 
 @media (max-width: 700px) {
 
+    .header-logo img {
+        width: 200px;
+    }
 
 }
 

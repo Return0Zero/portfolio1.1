@@ -6,8 +6,6 @@ import LeftBrain from '../../images/icons/left-dev-brain.svg';
 const SkillsInfo = ({InfoImage, InfoTitle, InfoDescription, InfoTools, BgImage}) => {
     return (
         <div className='skills--bg-component'>
-            <img src={LeftBrain} alt='left brain image' className='left-brain' />
-            <div className='skills--info-component'>
                 <img src={SkillsBg} alt='icon' className='skills--icon-component' />
                 <h3 className='skills--title-component'>Web Development</h3>
                 <p className='skills--p-component'>Coding is the bridge that allows the computer to understand the user and facilitates the way to build what we dream.</p>
@@ -25,7 +23,6 @@ const SkillsInfo = ({InfoImage, InfoTitle, InfoDescription, InfoTools, BgImage})
                         <p>Kaboom js</p>
                     </div>
                 </div>
-            </div>
             
         </div>
     )
