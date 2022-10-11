@@ -19,7 +19,7 @@ const ProjSilas = () => {
             </div>
             <div className='proj--one-images-component'> 
                 <div className='proj--image1'>
-                    <img src={HomeAfter} alt='homepage' className='proj---one-image-co2222mponent' />
+                    <img src={HomeAfter} alt='homepage' className='proj---one-image-component' />
                 </div>
             </div>
             <div className='proj--buttons-container'>
