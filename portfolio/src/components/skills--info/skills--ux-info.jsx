@@ -8,7 +8,7 @@ const SkillsArtInfo = ({InfoImage, InfoTitle, InfoDescription, InfoTools, BgImag
         <div className='skills--art-bg-component'>
                     <img src={SkillsArtBg} alt='icon' className='skills--icon-component' />
                     <h3 className='skills--title-component'>UX/UI Design</h3>
-                    <p className='skills--p-component'>Design is the process of imagining, planning and optimizing the interactions that the user will have in the web.</p>
+                    <p className='skills--p-component'>I help businesses design their brand identity, websites, logo, business cards and graphic design for advertising.</p>
                     <p className='skills--p-component'>Design tools I have used in my projects:</p>
                 <div className='skills--p-columns'>
                     <div className='skills--p-first-column'>

@@ -15,7 +15,7 @@ const ProjAffordable = () => {
                 <img src={AffordableLogo} alt='Reliable and Affordable Logo' className='affordable-logo' />
             </div>
             <div className='proj--content'>
-                <p>Text-to-Speech application made for the Embassy of Honduras in Washington DC. During this project I worked closely with the Ambassador of Honduras and The General Consul of Honduras to develop this project to be used in the entire consular network of Honduras in The United States of America as an emergency method to maintain order during the COVID 19 Pandemic facilitating the communication between the Embassy Agents and the regular public and that way not only did the application was able to improve the workflow, but it was able to free one of the agents needed to call the Honduran Citizens through the building and they were able to return to their regular responsibilities improving even further the workflow that it was placed to adhere to the Social Distancing Guidelines.</p>
+                <p>Reliable & Affordable Cleaning LLC is a North Carolina cleaning business that was looking to improve its online presence and needed me to build them a website, and social media accounts as well as online advertisement to help them improve the business. In the first month, I was able to bring them enough customers to fill 100% of their monthly capacity and they are currently looking for ways to expand their business and keep growing.</p>
             </div>
             <div className='proj--one-images-component'> 
                 <div className='proj--image1'>

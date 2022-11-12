@@ -8,6 +8,8 @@ function App() {
     <div className="App">
       <Background/>
       <Header />
+      <Navigation />
+      <CTA />
       <About />
       <Skills />
       <Projects />

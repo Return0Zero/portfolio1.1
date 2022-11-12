@@ -2,17 +2,21 @@
     width: 80%;
     
     text-align: center;
-    background: var(--background-component);
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
     padding: 6% 6% 1% 6%;
-    border-radius: 35px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #831187;
+    border-width: 1px;
 }
 
 .input {
     border-radius: 50px;
     font-size: 1.3em;
+    background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(3px);
-    border-top: 1.5px solid rgba(255, 255, 255, 0.7);
-    border-left: 1.5px solid rgba(255, 255, 255, 0.7);
+    border-color: transparent;
     width: 100%;
     padding: 1% 5% 1% 5%;
     margin-bottom: 35px;
@@ -29,15 +33,16 @@ textarea {
 .input-button {
     border-radius: 50px;
     backdrop-filter: blur(3px);
-    border-top: 2px solid rgba(255, 255, 255, 0.7);
-    border-left: 2px solid rgba(255, 255, 255, 0.7);
     width: 30%;
     font-size: 1.3em;
     cursor: pointer;
-    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    background: rgba(29, 0, 43, 0.4);
+    backdrop-filter: blur(3px);
+    border-color: transparent;
     margin-bottom: 35px;
     padding-top: 1%;
     padding-bottom: 1%;
+    color: #c0c0c0;
 }
 
 .input-button:active {

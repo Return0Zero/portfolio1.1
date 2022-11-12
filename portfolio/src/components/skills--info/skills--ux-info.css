@@ -11,6 +11,7 @@
     border-style: solid;
     border-color: #831187;
     backdrop-filter: blur(4px);
+    border-width: 2px;
     padding: 4% 3% 3% 4%;
 }
 

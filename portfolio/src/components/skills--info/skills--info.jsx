@@ -8,7 +8,7 @@ const SkillsInfo = ({InfoImage, InfoTitle, InfoDescription, InfoTools, BgImage})
         <div className='skills--bg-component'>
                 <img src={SkillsBg} alt='icon' className='skills--icon-component' />
                 <h3 className='skills--title-component'>Web Development</h3>
-                <p className='skills--p-component'>Coding is the bridge that allows the computer to understand the user and facilitates the way to build what we dream.</p>
+                <p className='skills--p-component'>I develop websites and applications for businesses that are looking to take their online presence to the next level.</p>
                 <p className='skills--p-component'>Dev Languages I have used in my projects:</p>
                 <div className='skills--p-columns'>
                     <div className='skills--p-first-column'>

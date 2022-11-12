@@ -16,6 +16,11 @@
 }
 
 
+.navigation--separation-bar {
+    height: 100px;
+    width: 8px;
+}
+
 .navigation--logo {
     width: 100px;
     cursor: pointer;
@@ -34,33 +39,27 @@
     transform: scale(0.9);
 }
 
-.navigation--separation-bar {
-    height: 124px;
-    width: 10px;
-    border-radius: 5px;
-    background-color: #831187;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 0;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .navigation--container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.navigation--text {
-    transform: scale(0.7);
-    margin-top: -12px;
+.navigation-text {
+    color: white;
+    text-decoration: none;
 }
+.navigation-text:link { text-decoration: none; }
 
-.navigation---icon-text {
-    transform: scale(0.8);
-    margin-top: -16px;
-}
+
+.navigation-text:visited { text-decoration: none; }
+
+
+.navigation-text:hover { text-decoration: none; }
+
+
+.navigation-text:active { text-decoration: none; }
+
 
 
 @media (max-width: 1300px) {
@@ -92,11 +91,6 @@
     .navigation---icon-text {
         display: none;
     }
-    
-    .navigation--separation-bar {
-        height: 80px;
-        width: 4px;
-    }
 
     .navigation--logo {
         width: 60px;
@@ -106,8 +100,15 @@
     .navigation--icon {
         width: 45px;
     }
-    
 
+    .navigation-text {
+        font-size: 0.9rem;
+    }
+    
+    
+    .navigation--separation-bar {
+        height: 170px;
+    }
 
 }
 
@@ -116,5 +117,9 @@
     
     .navigation--logo {
         width: 55px;
+    }
+
+    .navigation-text {
+        font-size: 0.7rem;
     }
 }
