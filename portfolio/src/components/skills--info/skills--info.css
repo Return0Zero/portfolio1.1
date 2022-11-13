@@ -15,32 +15,6 @@
     padding: 4% 3% 3% 4%;
 }
 
-.skills--title-component {
-    margin-top: 5%;
-    font-weight: 400;
-}
-
-
-br {
-    display: block;
-    content: ""; 
-    margin-top: -10px;
-}
-
-.skills--p-component{
-    margin-top: 2%;
-    text-align: left;
-    width: 100%;
-}
-
-.skills--p-columns {
-    display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    justify-content: space-around;
-}
-
 .left-brain {
     position: absolute;
     right: 10px;
@@ -54,7 +28,6 @@ br {
 @media (max-width: 750px) {
 
     .skills--bg-component {
-        font-size: 2vw;
     }
 
     .skills--info-component {

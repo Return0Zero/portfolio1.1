@@ -22,7 +22,7 @@
     color: white;
     font-family: var(--main-font);
     text-align: left;
-    font-size: 1.5vw;
+    font-size: 1.3rem;
     margin-top: 4%;
     margin-left: 7%;
     margin-right: 7%;
@@ -150,7 +150,7 @@
         width: 250px;
     }
     .about--texts {
-        font-size: 2.3vw;
+        font-size: 1rem;
     }
 
 }
@@ -166,7 +166,7 @@
         margin-left: 50px;
     }
     .about--texts {
-        font-size: 2.5vw;
+        font-size: 0.9rem;
     }
 
 }
