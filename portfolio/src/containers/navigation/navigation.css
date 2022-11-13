@@ -33,6 +33,7 @@
 .navigation--icon {
     width: 70px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .navigation--icon:active {
