@@ -2,7 +2,7 @@
 .navigation-section {
     position: fixed;
     display: flex;
-    left: 2%;
+    right: 2%;
     top: 50%;
     transform: translate(0%, -50%);
     z-index: 9;
