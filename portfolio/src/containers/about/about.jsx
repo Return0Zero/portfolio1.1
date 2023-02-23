@@ -6,7 +6,6 @@ import HTMLMedalObject from '../../components/medals-component/htmlmedal-object'
 import JavascriptMedalObject from '../../components/medals-component/javascriptmedal-object';
 import ReactMedalObject from '../../components/medals-component/reactmedal-object';
 import NodeMedalObject from '../../components/medals-component/nodemedal-object';
-import SecondLogoMedalComponent from '../logomedalcomponent/secondlogomedalcomponent';
 
 import Triangles from '../../images/background-designs/triangles.svg';
 
@@ -26,7 +25,6 @@ const About = () => {
                 <p>"Return Zero" was born after my first experience with programming where a friend of mine introduced me to the programming language C++ as a small introduction to the IT world, even though I later decided to become a Front End developer and focus on JavaScript I took a like of the Return Statement "return (0)" meaning that a program has been executed without errors and since that moment I took it as my Artistic Name(also utilized as my video games' nickname).</p>
             </div>
             <div className='about--medal-container'>
-                    <SecondLogoMedalComponent/>
                     <AdobeMedalObject/>
                     <CSSMedalObject/>
                     <HTMLMedalObject/>

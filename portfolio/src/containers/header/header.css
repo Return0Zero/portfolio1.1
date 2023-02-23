@@ -17,11 +17,7 @@
 
 .header-logo-second {
     height: 100%;
-    
-}
-
-.header-logo-second {
-    height: 100%;
+    touch-action: none;
     
 }
 

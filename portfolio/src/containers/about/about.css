@@ -60,7 +60,10 @@
 }
 
 .about--medal-container{
-    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 33% 33% 33%;
 }
 
 @keyframes rightRotation {
