@@ -1,10 +1,12 @@
 import React from 'react';
 import './projects.css';
+
 import ProjSilas from '../../components/proj--component/proj--silas';
 import ProjEmbassy from '../../components/proj--component/proj--embassy';
 import ProjGame from '../../components/proj--component/proj--game';
 import ProjAffordable from '../../components/proj--component/proj--affordable-cleaning';
 import ProjKnight from '../../components/proj--component/proj--knight';
+
 
 const Projects = () => {
     return (
@@ -17,6 +19,8 @@ const Projects = () => {
                 <ProjEmbassy />
                 <ProjGame />
             </div>
+            
+            <h1 className='main-title'>JS PROJECTS</h1>
         </div>
     )
 }

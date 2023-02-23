@@ -17,8 +17,16 @@
 
 .header-logo-second {
     height: 100%;
-    touch-action: none;
     
+}
+
+.medal-blocker {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    z-index: 8;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 

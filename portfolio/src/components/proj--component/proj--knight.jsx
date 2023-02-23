@@ -1,11 +1,11 @@
 import React from 'react';
 import './proj--knight.css';
 import KnightLogo from '../../images/projects/knight/logo-dark-horizontal.png';
+import KnightHeader from '../../images/projects/knight/knight.png'
 import PlusButton from '../../images/icons/plus-button.svg';
 import WebButton from '../../images/icons/web-button.png';
 import CodingButton from '../../images/icons/coding-button.svg';
 
-import KnightHeader from '../../images/projects/knight/knight.png'
 
 
 const ProjKnight = () => {

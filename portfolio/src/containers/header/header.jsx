@@ -10,6 +10,7 @@ const Header = () => {
         <div className='header-section'>
             <h1 className='main-title'>JORGE DANIEL CRUZ</h1>
             <div className='header-logo-second'>
+                <span className='medal-blocker'></span>
                 <LogoMedalComponent/>
             </div>
             <div className='header-second-title'>
