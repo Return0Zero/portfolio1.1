@@ -144,6 +144,18 @@
 }
 
 
+@media (max-width: 1000px) {
+
+    .about--section {
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+}
+
+
 @media (max-width: 800px) {
 
     .asset-container {
@@ -168,6 +180,18 @@
     }
     .about--texts {
         font-size: 0.9rem;
+    }
+
+    .about--medal-container{
+        margin-bottom: -15%;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .about--medal-container{
+        margin-bottom: -25%;
     }
 
 }

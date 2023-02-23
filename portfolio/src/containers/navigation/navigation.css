@@ -2,11 +2,10 @@
 .navigation-section {
     position: fixed;
     display: flex;
-    left: 2%;
+    right: 2%;
     top: 50%;
     transform: translate(0%, -50%);
     z-index: 9;
-    justify-content: space-between;
 }
 
 .navigation-elements {
@@ -17,7 +16,7 @@
 
 
 .navigation--separation-bar {
-    height: 100px;
+    height: 150px;
     width: 8px;
 }
 

@@ -1,5 +1,4 @@
 .header-section {
-    padding-top: 5%;
     color: #d6d6d6;
     height: 95vh;
     position: relative;
@@ -16,7 +15,6 @@
 }
 
 .header-logo-second {
-    height: 100%;
     
 }
 
@@ -45,6 +43,10 @@
         width: 300px;
     }  
 
+    .medal-blocker {
+        height: 300px;
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -63,6 +65,15 @@
 
     .header-logo img {
         width: 200px;
+    }
+
+    .medal-blocker {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        z-index: 8;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
 }

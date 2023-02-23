@@ -20,7 +20,7 @@ const Projects = () => {
                 <ProjGame />
             </div>
             
-            <h1 className='main-title'>JS PROJECTS</h1>
+            {/* <h1 className='main-title'>JS PROJECTS</h1> */}
         </div>
     )
 }

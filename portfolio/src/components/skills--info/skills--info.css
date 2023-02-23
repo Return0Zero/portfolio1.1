@@ -25,9 +25,28 @@
 }
 
 
+@media (max-width: 1000px) {
+
+    .skills--bg-component {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+    
+    }
+
+}
+
+
+
 @media (max-width: 750px) {
 
     .skills--bg-component {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+    
     }
 
     .skills--info-component {
