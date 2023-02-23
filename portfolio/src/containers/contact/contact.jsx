@@ -27,10 +27,6 @@ const Contact = () => {
                         <div className='contact--contact'>
                             <h3 className='contact--h3'>Reach Me Out:</h3>
                             <div className='contact--contact-icon-container'>
-                                <a href='tel:301-524-6088' className='contact-first-container'>
-                                    <img src={Phone} alt="phone" className='phone phone-front'/>
-                                    <img src={Phone2} alt="phone2" className='phone2 phone-back'/>
-                                </a>
                                 <a href='https://www.linkedin.com/in/jorge-cruz-a22484216/' target="_blank" className='contact-second-container'>
                                     <img src={Linkedin} alt="linkedin" className='linkedin img-front'/>
                                     <img src={Linkedin2} alt="linkedin2" className='linkedin2 img-back'/>

@@ -13,7 +13,7 @@ body {
 
 .main-title {
   font-family: 'Gruppo', cursive;
-  font-size: 5.5vw;
+  font-size: 5.5Rem;
   color: #dedede;
   font-weight: 400;
 }
@@ -22,7 +22,43 @@ body {
 @media (max-width: 1300px) {
     
   .main-title {
+  font-size: 4rem;
   }
   
+}
+
+
+@media (max-width: 1000px) {
+    
+  .main-title {
+  font-size: 3.5rem;
+  }
+
+}
+
+
+@media (max-width: 700px) {
+    
+  .main-title {
+  font-size: 3rem;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+    
+  .main-title {
+  font-size: 2.5rem;
+  }
+
+}
+
+
+@media (max-width: 400px) {
+    
+  .main-title {
+  font-size: 2rem;
+  }
 
 }

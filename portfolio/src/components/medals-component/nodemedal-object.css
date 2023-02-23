@@ -1,0 +1,53 @@
+.node-canvas {
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+    
+}
+
+@media (max-width: 1050px) {
+    
+    .node-canvas {
+        height: 200px;
+        left: -5%;
+    }
+
+}
+
+@media (max-width: 800px) {
+    
+    .node-canvas {
+        height: 125px;
+        left: -10%;
+    }
+
+}
+
+@media (max-width: 650px) {
+    
+    .node-canvas {
+        height: 125px;
+        left: -15%;
+    }
+
+}
+
+@media (max-width: 500px) {
+    
+    .node-canvas {
+        height: 100px;
+        left: -25%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    
+    .node-canvas {
+        height: 100px;
+        left: -35%;
+    }
+
+}

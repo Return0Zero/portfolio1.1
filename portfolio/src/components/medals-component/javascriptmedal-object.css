@@ -1,0 +1,54 @@
+.javascript-canvas {
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    z-index: 9;
+    
+}
+
+@media (max-width: 1050px) {
+    
+    .javascript-canvas {
+        height: 200px;
+        left: 10%;
+    }
+
+}
+
+@media (max-width: 800px) {
+    
+    .javascript-canvas {
+        height: 150px;
+        left: 5%;
+    }
+
+}
+
+@media (max-width: 650px) {
+    
+    .javascript-canvas {
+        height: 125px;
+        left: 0;
+        top: -5%
+    }
+
+}
+
+@media (max-width: 500px) {
+    
+    .javascript-canvas {
+        height: 100px;
+        left: -10%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    
+    .javascript-canvas {
+        height: 100px;
+        left: -20%;
+    }
+
+}

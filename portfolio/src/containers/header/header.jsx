@@ -1,15 +1,16 @@
 import React from 'react';
 import './header.css';
-import RZMedal from '../../images/rz-medal.png';
 import Typewriter from 'typewriter-effect';
+
+import LogoMedalComponent from '../logomedalcomponent/logomedalcomponent';
 
 
 const Header = () => {
     return (
         <div className='header-section'>
             <h1 className='main-title'>JORGE DANIEL CRUZ</h1>
-            <div className='header-logo'>
-                <img src={RZMedal} alt="Return Zero Logo" />
+            <div className='header-logo-second'>
+                <LogoMedalComponent/>
             </div>
             <div className='header-second-title'>
                     <Typewriter 

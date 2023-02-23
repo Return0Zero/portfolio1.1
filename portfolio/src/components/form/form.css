@@ -14,12 +14,13 @@
 .input {
     border-radius: 50px;
     font-size: 1.3em;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(29, 0, 43, 0.451);
     backdrop-filter: blur(3px);
     border-color: transparent;
     width: 100%;
     padding: 1% 5% 1% 5%;
     margin-bottom: 35px;
+    color: #c0c0c0;
 }
 
 

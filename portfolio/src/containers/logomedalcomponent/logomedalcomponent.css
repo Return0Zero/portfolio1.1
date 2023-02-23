@@ -1,0 +1,42 @@
+.medal-canvas {
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    top: 0; 
+    bottom: 0; 
+    margin-top: auto; 
+    margin-bottom: auto; 
+}
+
+
+@media (max-width: 1000px) {
+    
+    .medal-canvas {
+        height: 800px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    
+    .medal-canvas {
+        height: 700px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    
+    .medal-canvas {
+        height: 600px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    
+    .medal-canvas {
+        height: 500px;
+    }
+
+}
