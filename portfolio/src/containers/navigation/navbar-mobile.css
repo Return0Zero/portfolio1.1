@@ -1,0 +1,144 @@
+.navbar-mobile-max-width {
+    width: 100%;
+    background-color: #FCFCFC;
+    position: fixed;
+    z-index: 10;
+    display: none;
+    top: 0;
+
+}
+
+
+.navbar-mobile-container {
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+}
+
+.logo {
+    width: 200px;
+}
+
+.mobile-link-services, .mobile-link-contact {
+   
+    color: white;
+    text-decoration: none;
+}
+
+.mobile-link-services:visited, .mobile-link-contact:visited {
+    
+    color: white;
+    text-decoration: none;
+}
+
+.mobile-link-services-h1, .mobile-link-contact-h1 {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.close-menu {
+    width: 35px;
+    height: 35px;
+    right: 3%;
+    margin-top: 0.5%;
+}
+
+.hamburger-menu {
+    width: 35px;
+    height: 40px;
+    right: 3%;
+}
+
+@media (max-width: 1100px) {
+    .navbar-mobile-max-width {
+        display: inline;
+    
+    }
+
+    .logo {
+        width: 180px;
+        margin-left: 25%;
+    }
+
+    .navbar-mobile-container {
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-mobile-max-width {
+        display: inline;
+    
+    }
+
+    .logo {
+        width: 150px;
+        margin-left: 25%;
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+
+    .close-menu {
+        width: 35px;
+        height: 35px;
+        right: 3%;
+        margin-top: 2.5%;
+    }
+
+    .hamburger-menu {
+        width: 35px;
+        height: 40px;
+        right: 3%;
+        margin-top: 1%;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo {
+        width: 150px;
+        margin-left: 25%;
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+
+    .close-menu {
+        width: 30px;
+        height: 30px;
+        right: 3%;
+        margin-top: 3%;
+    }
+
+    .hamburger-menu {
+        width: 35px;
+        height: 35px;
+        right: 3%;
+        margin-top: 2%;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo {
+        width: 125px;
+        margin-left: 25%;
+        margin-top: 7%;
+        margin-bottom: 2%;
+    }
+
+    .close-menu {
+        width: 25px;
+        height: 25px;
+        right: 3%;
+        margin-top: 5%;
+    }
+
+    .hamburger-menu {
+        width: 30px;
+        height: 30px;
+        right: 3%;
+        margin-top: 4%;
+    }
+}
