@@ -1,6 +1,6 @@
 import './App.css';
 
-import { About, Contact, Header, Navigation, Projects, Skills, CTA, Footer, Background } from './containers';
+import { About, Contact, Header, NavbarMobile, Projects, Skills, CTA, Footer, Background } from './containers';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Background/>
       <Header />
-      <Navigation />
+      <NavbarMobile />
       <CTA />
       <About />
       <Skills />
