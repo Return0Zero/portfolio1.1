@@ -7,6 +7,8 @@ import ProjGame from '../../components/proj--component/proj--game';
 import ProjAffordable from '../../components/proj--component/proj--affordable-cleaning';
 import ProjKnight from '../../components/proj--component/proj--knight';
 
+import ProjJsToDo from '../../components/proj--component/proj--js-to-do';
+
 
 const Projects = () => {
     return (
@@ -20,7 +22,10 @@ const Projects = () => {
                 <ProjGame />
             </div>
             
-            {/* <h1 className='main-title'>JS PROJECTS</h1> */}
+            <h1 className='main-title'>JS PROJECTS</h1>
+            <div className='project--container'>
+                <ProjJsToDo />
+            </div>
         </div>
     )
 }

@@ -54,8 +54,17 @@
 .proj--content {
     margin-top: 2%;
     text-align: left;
-    height: 200px;
+    max-height: 200px;
     overflow: auto;
+    padding: 5%;
+    font-size: 1rem;
+}
+
+.proj--js-content {
+    margin-top: 2%;
+    text-align: left;
+    overflow: auto;
+    max-height: 150px;
     padding: 5%;
     font-size: 1rem;
 }
@@ -70,7 +79,7 @@
 }
 
 .proj--image {
-    width: 150px;
+    width: 200px;
 }
 
 @media (max-width: 1300px) {

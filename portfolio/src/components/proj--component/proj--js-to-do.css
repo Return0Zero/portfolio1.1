@@ -1,0 +1,17 @@
+
+.proj--two-images-embassy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 200px;
+}
+
+.proj---embassy-image {
+    width: 180px;
+}
+
+.knight-logo {
+    transform: scale(0.60);
+}
